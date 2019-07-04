@@ -12,25 +12,24 @@
         readonly int STAT_OK = 1;
 
         /// <summary>
-        /// 서징발생시 호출되는 이벤트입니다.
+
         /// </summary>
         public event Action OnSurging;
         /// <summary>
-        /// 서징카운트입니다.
+
         /// </summary>
         public int SurgingCount {
             get;set;
         }
         /// <summary>
-        /// 서징카운트의 제한값입니다
-        /// 제한값을 넘으면 이벤트를 발생시킵니다.
+
         /// </summary>
         public int SurgingCountLimit {
             get;
             set;
         }
         /// <summary>
-        /// 서징카운트를 증가시키는 최소  속도값입니다.
+
         /// </summary>
         public float SurgingSpeedMin {
             get;
